@@ -1,0 +1,32 @@
+{
+    "name": "spectraura-api",
+    "version": "1.0.0",
+    "description": "",
+    "type": "module",
+    "main": "index.js",
+    "homepage": "https://github.com/Lyeed/spectraura-api#readme",
+    "bugs": {
+        "url": "https://github.com/Lyeed/spectraura-api/issues"
+    },
+    "scripts": {
+        "start": "node ./api/index.js",
+        "dev": "nodemon ./api/index.js",
+        "prettier": "prettier --write ."
+    },
+    "license": "Polyform-Noncommercial-1.0.0",
+    "author": {
+        "name": "Gautier Jousset",
+        "email": "gautier.jousset@epitech.eu",
+        "url": "https://lyeed.github.io"
+    },
+    "dependencies": {
+        "cors": "2.8.5",
+        "dotenv": "17.2.1",
+        "express": "5.1.0",
+        "svelte": "5.38.1"
+    },
+    "devDependencies": {
+        "nodemon": "3.1.10",
+        "prettier": "3.6.2"
+    }
+}
